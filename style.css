@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.all{
+    display: flex;
+width: 1440px;
+height: 1024px;
+justify-content: center;
+align-items: center;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+align-items: flex-start;
+background-color: #ffffff;
+height:600px;
+border: 1px solid #000000;
+box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.336);
+}
+
+    .leftimg{
+    max-height: 600px;
+}
+
+.leftp1{
+    position: relative;
+    bottom: 500px;
+    left: 50px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 64px;
+}
+
+.leftp{
+    position: relative;
+    bottom: 500px;
+    left: 60px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    
+    
+}
+.rightside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:start;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.validform{
+     position: relative;
+     top: 150px;
+     right: 80px;
+}
+.p2{
+display: flex;
+padding: 2px;
+align-items: flex-start;
+gap: 10px;
+color: #333;
+font-size: 9px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+left:310px ;
+bottom: 120px;
+}
+
+.button1 {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid #4b4242;
+    border-radius: 150px;
+    padding: 10px ;
+    width: 400px;
+    
+}
+.button1:hover{
+    background-color: #000000; 
+  color: white;
+  transition-duration: 0.6s;
+}
+  .google{
+    position: relative;
+    bottom: 105px;
+    left: 118px;
+    height: 18px;
+  }
+  .twitter{
+    position: relative;
+    bottom: 48px;
+    left: 95px;
+    height: 20px;
+  }
+  .or{
+    text-align: center;
+    color: #564c4cc5;
+    font-weight: 20;
+  }
+  .mailpass{
+    color: #564c4cc5;
+    font-weight: 20;
+    font-size: 10px;
+  }
+  .textpass{
+    width: 390px;
+    height: 30px;
+    border-radius: 10px ;
+    border-style: none;
+    
+  }
+  .textpass:hover{
+    background-color: #00000044; 
+    color: rgb(0, 0, 0);
+    transition-duration: 0.6s;
+  }
+  .forget{
+       font-weight: 20;
+     font-size: 10px;
+     position: relative;
+     left: 280px;
+     
+    }
+   .signin{
+    background-color: #997825;
+    color: #ffffff;
+    border: 1px solid #4b4242;
+    border-radius: 250px;
+    padding: 10px ;
+    width: 150px;
+   }
+   .signin:hover{
+    background-color:   #997825; 
+  color: rgb(0, 0, 0);
+  transition-duration: 0.6s;
+   }
+   .dont{
+    color: #564c4cc5;
+    font-weight: 20;
+    font-size: 10px;
+   }
+   
+   
+
